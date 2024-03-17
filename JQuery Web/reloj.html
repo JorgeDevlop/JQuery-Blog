@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con JavaScript</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+    <!--JQuery -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+     <!-- Moment JS -->
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/es.min.js"></script>
+ 
+
+
+
+    <!-- Mis Scripts -->
+
+    <script type="text/JavaScript" src="js/main.js"></script>
+
+
+</head>
+
+<body>
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+    <section id="global">
+        <!-- Cabecera -->
+
+        <header>
+            <div id="logo">
+                <h1>Proyecto JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+
+                </ul>
+
+            </nav>
+        </header>
+
+
+
+        <!-- Contenido -->
+        <section id="content">
+            <div id="box">
+        <!-- Reloj -->
+        <div id="reloj"></div>
+
+
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4> <span>Quien soy?</span></h4>
+                    <img src="img/caracol.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nam et dolor consequatur
+                        possimus dignissimos cumque, architecto magnam esse rerum a dolore blanditiis dolorem aliquid
+                        ratione, quos enim atque! Unde.</p>
+                </div>
+
+                <div id="login">
+                    <h4> <span>Identificate</span></h4>
+                    <form action="">
+                        <label for="name">
+                            Nombre
+                        </label>
+                        <input type="text" name="name" id="form_name">
+                        <label for="email">
+                            Correo
+                        </label>
+                        <input type="email" name="email" id="form_email">
+                        <label for="password">
+                            Contraseña
+                        </label>
+                        <input type="password" name="password" id="form_password">
+                        <input type="submit" value="Entrar">
+                    </form>
+
+                </div>
+
+            </aside>
+            <div class="clearfix"></div>
+
+        </section>
+
+    </section>
+    <footer>
+        Jorge Martinez JavaScript Blog &copy;
+
+        <a href="#" class="up">Ir arriba</a>
+    </footer>
+</body>
+
+</html>
